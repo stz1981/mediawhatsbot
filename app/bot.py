@@ -15,7 +15,7 @@ PHONE_NUMBER_ID = 'your_phone_number_id'
 
 # Function to send WhatsApp message
 def send_whatsapp_message(to, message):
-    url = f"https://graph.facebook.com/v13.0/{PHONE_NUMBER_ID}/messages"
+    url = f" https://graph.facebook.com/v21.0/{PHONE_NUMBER_ID}/messages"
     headers = {
         "Authorization": f"Bearer {ACCESS_TOKEN}",
         "Content-Type": "application/json"
