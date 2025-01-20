@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  whatsapp-bot:
+    build: ./app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./volumes/Audio:/app/Audio
+      - ./volumes/Video:/app/Video
+    environment:
+      - FLASK_ENV=development
+      - SECRET_KEY=your_secret_key
+      - ACCESS_TOKEN=your_temporary_access_token
+      - PHONE_NUMBER_ID=your_phone_number_id
+      - EMAIL_USER=your_email@gmail.com
+      - EMAIL_PASS=your_email_password
