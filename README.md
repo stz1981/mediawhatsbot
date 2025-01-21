@@ -18,7 +18,7 @@ This project is a WhatsApp bot that allows users to download audio and video fro
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/stz1981/mediawhatsbot.git
-cd whatsapp-bot
+cd mediawhatsbot
 ```
 
 ### 2. Set Up Meta for Developers
